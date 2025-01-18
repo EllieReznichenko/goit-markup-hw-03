@@ -201,7 +201,7 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.benefits-container {
+.benefits {
   padding: 120px 0;
 }
 
@@ -254,10 +254,7 @@ img {
   gap: 24px;
 }
 
-.mark-container,
-.tom-container,
-.camila-container,
-.daniel-container {
+.team-member-container {
   padding: 32px 0;
 }
 
@@ -306,15 +303,10 @@ img {
 }
 
 .portfolio {
-  padding-top: 120px;
+  padding: 120px 0 120px 0;
 }
 
-.banking-container,
-.payment-container,
-.meditation-container,
-.taxi-container,
-.design-container,
-.courses-container {
+.portfolio-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -341,6 +333,9 @@ img {
   color: #f4f4fd;
   font-family: "Raleway", sans-serif;
   min-width: 115px;
+}
+
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
